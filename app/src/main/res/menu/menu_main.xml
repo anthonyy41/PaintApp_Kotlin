@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_open_img"
+        android:orderInCategory="1"
+        android:title="@string/menu_open"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_process_image"
+        android:orderInCategory="2"
+        android:title="@string/menu_cut"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_take_photo"
+        android:orderInCategory="3"
+        android:title="@string/menu_photo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_get_gallery"
+        android:orderInCategory="4"
+        android:title="@string/menu_gallery"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_get_color"
+        android:orderInCategory="5"
+        android:title="@string/menu_color"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_get_texture"
+        android:orderInCategory="6"
+        android:title="@string/menu_texture"
+        app:showAsAction="never" />
+</menu>
